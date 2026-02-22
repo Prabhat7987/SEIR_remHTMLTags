@@ -13,7 +13,7 @@ def main():
     # 2. Fetch the webpage
     response = requests.get(url)
     html = response.text
-
+    
     # 3. Parse HTML
     soup = BeautifulSoup(html, "html.parser")
 
@@ -35,7 +35,7 @@ def main():
         href = link.get("href")
         if href:
             print(href)
-
+            
 if __name__ == "__main__":
     main()
 
@@ -107,6 +107,8 @@ if __name__ == "__main__":
 # status code
 # headers
 # cookies
+
 # response.status_code → 200 (success)
 # response.text → HTML content
 # response.headers → server info
+
