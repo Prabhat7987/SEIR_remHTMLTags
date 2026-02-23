@@ -1,4 +1,4 @@
-# I am currently working on understanding SimHash and its implementation. As I am still learning the concept, I have not yet completed the SimHash assignment. I will finish the coding part once I gain a clearer understanding of the topic.
+# I am currently working on understanding SimHash implementation. As I am still doing the code part, I have not yet completed the SimHash assignment. I will finish the coding part once I gain a clearer understanding of the topic.
 
 # Simple Web Page Info Extractor
 This Python script takes a website URL from the command line and extracts:
