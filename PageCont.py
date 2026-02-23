@@ -1,3 +1,5 @@
+# I am not able to do the Simhash Assignment yet sir I am still learning Simhash
+# Credit goes to google for learning this below libraries again from google
 import sys
 import re
 import requests
@@ -64,3 +66,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
