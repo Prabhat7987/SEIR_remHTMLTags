@@ -15,7 +15,7 @@ pip install requests beautifulsoup4
 ## Usage
 Run from command line:
 ```
-python Assignment.py url1 and url 2
+python Assignment.py url1 & url2
 ```
 Example:
 ```
