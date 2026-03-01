@@ -1,13 +1,10 @@
 # NOTE: This scraper works only for websites that serve content in static HTML and does not support JavaScript-rendered pages.
 # I am not able to do the Simhash Assignment yet sir I am still learning Simhash
 # Credit goes to google for learning this below libraries again from google
-
 import sys
 import re
 import requests
 from bs4 import BeautifulSoup  # for parsing credit goes to google first i learn from google then execute
-
-
 # Browser header it will avoid blocking => Credit goes to google will help from google for this
 HEADERS= {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) " "AppleWebKit/537.36 (KHTML, like Gecko) " "Chrome/120.0 Safari/537.36"}
 # fuction for extracting titles, body text and links on the page
@@ -46,8 +43,6 @@ def count_words(text):
     for word in tokens:
         frequency[word]= frequency.get(word,0)+ 1
     return frequency
-
-
 # Entry point of program
 def main():
     if len(sys.argv)!= 2:
